@@ -18,7 +18,6 @@ namespace Brickcell {
         control.waitMicros(10)
         pins.digitalWritePin(trigPin, 0)
         _distance_cm = Math.idiv(pins.pulseIn(echoPin, PulseValue.High), 58)
-        basic.showNumber(_distance_cm);
         
         return _distance_cm;
     }

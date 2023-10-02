@@ -1,5 +1,5 @@
 {
-    "name": "brickcell-hc-sr04",
+    "name": "brickcell-ultrasonic-hcsr04",
     "description": "",
     "dependencies": {
         "core": "*",
